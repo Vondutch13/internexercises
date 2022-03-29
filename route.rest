@@ -1,0 +1,26 @@
+GET http://localhost:9000/users
+
+###
+
+POST http://localhost:9000/users
+Content-Type: application/json
+
+{
+    "username":"Kanyeee",
+    "password":"Kanye123"
+}
+
+###
+
+GET http://localhost:9000/users/6241f86227a2045e3174cb18
+
+###
+DELETE http://localhost:9000/users/6241f86227a2045e3174cb18
+
+###
+PATCH http://localhost:9000/users/62424d88e855b889bc79e553
+Content-Type: application/json
+
+{
+    "username":"JoseLITO"
+}
